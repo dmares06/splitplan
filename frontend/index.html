@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SplitPlan Demo</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <main>
+    <h1>SplitPlan Demo</h1>
+    <p class="demo">Local demo. Use sample data only.</p>
+    <form id="task">
+      <label>Task<input name="title" maxlength="500" required></label>
+      <button type="submit">Add Task</button>
+    </form>
+    <ul id="tasks" aria-label="Tasks"></ul>
+    <p id="result" role="status" aria-live="polite"></p>
+  </main>
+</body>
+</html>
